@@ -1,4 +1,4 @@
-name := "my-$pattern$-$name$-sample"
+name := "$name$"
 
 organization := "$organization$"
 
