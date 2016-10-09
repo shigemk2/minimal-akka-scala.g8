@@ -1,6 +1,6 @@
 package $organization$
 
-object $name__Camel$ {
+object $name;format="Camel"$ {
   def main(args: Array[String]): Unit = {
   }
 }
