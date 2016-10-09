@@ -1,4 +1,6 @@
-name := """minimal-akka-scala.g8"""
+name := "$name$"
+
+organization := "$organization$"
 
 version := "1.0"
 
