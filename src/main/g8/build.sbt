@@ -4,14 +4,10 @@ organization := "$organization$"
 
 version := "1.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "$scala_version$"
 
 // Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor" % "2.4.10",
-  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+  "com.typesafe.akka" %% "akka-actor" % "$akka_version$",
+  "org.scalatest" %% "scalatest" % "$scala_test_version$" % "test"
 )
-
-// Uncomment to use Akka
-//libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
-
