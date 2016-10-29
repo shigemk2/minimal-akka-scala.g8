@@ -1,6 +1,6 @@
 # $name$
 
-Project description.
+$name$
 
 ## Running
 
